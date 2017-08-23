@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* ----- header section ----- */
+
+header {
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  z-index: 20;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav span {
+  display: inline-block;
+  padding: 10px;
+}
+
+header a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+/* ----- main section ----- */
+
+main {
+  position: relative;
+  padding-top: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+h2 {
+  margin: 0px;
+  padding: 10px;
+  display: block;
+}
+
+h3 {
+  margin: 0px;
+  padding: 10px;
+  display: block;
+}
+
+h4 {
+  margin: 0px;
+  padding: 10px;
+  display: block;
+}
+
+/* mission section */
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+#mission .text-content {
+  background-color: black;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+/* tea section */
+#tea {
+  width: 1000px;
+  padding-top: 70px;
+}
+
+#tea .text-content {
+  width: 100%;
+  margin: 0px;
+}
+
+.pic-content img {
+  height: 200px;
+  width: 300px;
+  margin: 15px 15px 0px 15px;
+}
+
+/* location section */
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  margin-top: 70px;
+  padding-top: 70px;
+}
+
+.location {
+  background-color: black;
+  height: 280px;
+  width: 300px;
+  opacity: 1;
+  margin: 5px 20px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* info section */
+#info {
+  height: 200px;
+}
+
+/* ----- footer section ----- */
+
+footer .copyright {
+  text-align: left;
+  padding-left: 20px;
+}
